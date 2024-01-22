@@ -1,0 +1,21 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+button{
+    background: none;
+    border: 1px solid black;
+    padding: 10px;
+    cursor: pointer;
+}
+
+img{
+    width: 20vw;
+}

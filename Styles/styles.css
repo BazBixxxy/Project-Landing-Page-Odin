@@ -1,0 +1,163 @@
+/* layout design */
+.section2 {
+  height: 90vh;
+  background-color: rgb(255, 255, 255);
+}
+
+.top {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom {
+  display: flex;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.part1 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.part2 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.part3 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.part4 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.section3 {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+}
+
+.section4 {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(230, 230, 230);
+}
+
+.sign-box {
+  background-color: rgb(49, 163, 233);
+  width: 900px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  color: white;
+}
+
+.sign-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 500px 1fr;
+}
+
+.sign-up {
+  margin-left: 30px;
+  width: 100px;
+  padding: 12px;
+  border-radius: 2px;
+  color: white;
+  border-color: white;
+}
+
+.sign-box-paragraph{
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+footer {
+  height: 15vh;
+  background-color: rgb(49, 49, 49);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* content design */
+
+.top {
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.part1,
+.part2,
+.part3,
+.part4 {
+  object-fit: cover;
+  overflow: hidden;
+  transition: 1s ease all;
+}
+
+.part1 > img,
+.part2 > img,
+.part3 > img,
+.part4 > img {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s ease all;
+}
+
+.part1:hover > img,
+.part2:hover > img,
+.part3:hover > img,
+.part4:hover > img {
+  transform: scale(1.1);
+}
+
+.part1,
+.part2,
+.part3,
+.part4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.bottom-content {
+  margin-top: 20px;
+  font-size: 1.1em;
+  font-weight: 200;
+}
+
+.content3-paragraph {
+  padding: 200px;
+  font-size: 1.1rem;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+.footer-paragraph {
+  font-size: 1.1em;
+  font-weight: 200;
+}
+
+.icon {
+  margin-right: 80px;
+  cursor: pointer;
+}
