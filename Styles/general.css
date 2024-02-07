@@ -1,21 +1,23 @@
-html{
-    scroll-behavior: smooth;
-}
-
 body {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
   margin: 0;
+  font-family: sans-serif;
+  font-weight: 200;
   box-sizing: border-box;
+  /* overflow: scroll; */
 }
 
-button{
-    background: none;
-    border: 1px solid black;
-    padding: 10px;
-    cursor: pointer;
+button {
+  background: none;
+  border: 1px solid white;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
 }
 
-img{
-    width: 20vw;
+p {
+  margin: 0;
+}
+
+img {
+  width: 20vw;
 }
